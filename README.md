@@ -1,2 +1,2 @@
-## How to locate User in Swift using SLLocationMaganer
+## How to locate User in Swift using `CLLocationMaganer` protocol. 
 
