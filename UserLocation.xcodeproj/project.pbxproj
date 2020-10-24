@@ -15,6 +15,7 @@
 		52085812254442F400D96884 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52085810254442F400D96884 /* LaunchScreen.storyboard */; };
 		5208581D254442F500D96884 /* UserLocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5208581C254442F500D96884 /* UserLocationTests.swift */; };
 		52085828254442F500D96884 /* UserLocationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52085827254442F500D96884 /* UserLocationUITests.swift */; };
+		5208583A25444EB100D96884 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5208583925444EB100D96884 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		52085823254442F500D96884 /* UserLocationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UserLocationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52085827254442F500D96884 /* UserLocationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocationUITests.swift; sourceTree = "<group>"; };
 		52085829254442F500D96884 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5208583925444EB100D96884 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5208583A25444EB100D96884 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +86,7 @@
 				5208581B254442F500D96884 /* UserLocationTests */,
 				52085826254442F500D96884 /* UserLocationUITests */,
 				52085803254442F200D96884 /* Products */,
+				5208583825444EB100D96884 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,6 +130,14 @@
 				52085829254442F500D96884 /* Info.plist */,
 			);
 			path = UserLocationUITests;
+			sourceTree = "<group>";
+		};
+		5208583825444EB100D96884 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5208583925444EB100D96884 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
